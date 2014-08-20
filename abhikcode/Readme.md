@@ -8,6 +8,7 @@ The scripts generates database and adds fingerprints and perform search.
   * Pymongo
   * Mongo DB
 
+
  To build a database
  * db_build.py  
  * addfps.py
