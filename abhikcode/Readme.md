@@ -1,7 +1,9 @@
 # Automated python code to Build and Search mongo database
 
 Scripts taken from Matt Swain https://github.com/abhik1368/mongodb-chemistry
-To execute three codes
+The scripts generates database adds fingerprints and perform search
+
+
  To build a database
  * db_build.py  
  * addfps.py
