@@ -3,6 +3,11 @@
 Scripts taken from Matt Swain https://github.com/abhik1368/mongodb-chemistry
 The scripts generates database and adds fingerprints and perform search.
 
+ Required tools
+  * RDKit
+  * Pymongo
+  * Mongo DB
+
  To build a database
  * db_build.py  
  * addfps.py
