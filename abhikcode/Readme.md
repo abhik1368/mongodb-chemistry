@@ -1,7 +1,7 @@
 # Automated Code to Build and search a Chemistry database using Mongo DB.
 
 Scripts taken from Matt Swain https://github.com/abhik1368/mongodb-chemistry
-The scripts generates databasen adds fingerprints and perform search.
+The scripts generates database and adds fingerprints and perform search.
 
  To build a database
  * db_build.py  
