@@ -22,10 +22,12 @@ python db_build.py -h
 
 python db_build.py --i benzodiazepine.smi --tag chembl_id --fpname mfp1 morgan
 
-python addfps.py
+python addfps.py -h
+
 python addfps.py --db moltest --fpSize 1024 --fpname mfp2 morgan
 
-python query.py
+python query.py -h
+
 python query.py --db chemtest --smi 'CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4' --fpSize 512
 
 
