@@ -7,7 +7,10 @@ The scripts generates databasen adds fingerprints and perform search.
  * db_build.py  
  * addfps.py
  * query.py
+
+
 A small dataset is given in data directory to test 
+
 ## Usage
 
 python db_build.py -h
