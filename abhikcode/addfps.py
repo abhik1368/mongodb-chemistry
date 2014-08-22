@@ -1,8 +1,14 @@
-__author__ = 'abhikseal'
-"""
-This code is similar to db_build.py it is only used if we already have a database of molecule
-and we only need to generate different fingerprints for the molecules.
-"""
+###############################################################################################
+### Adding fingerprints to mongodb database with RDKit chemical fingerprints
+### This code is similar to db_build.py it is only used if we already have a database of 
+### molecule and we only need to generate different fingerprints for the molecules.
+###
+### Abhik Seal
+### 30 Jul 2014
+### Code taken from Matt Swain's github https://github.com/mcs07/mongodb-chemistry
+###
+##############################################################################################
+
 import uuid
 import pymongo
 from bson.binary import Binary
