@@ -20,7 +20,7 @@ A small dataset is given in data directory to test
 
 python db_build.py -h
 
-python db_build.py --i benzodiazepine.smi --tag chembl_id --fpname mfp1 morgan
+python db_build.py --db moltest--i benzodiazepine.smi --tag chembl_id --fpname mfp1 morgan
 
 python addfps.py -h
 
@@ -28,7 +28,7 @@ python addfps.py --db moltest --fpSize 1024 --fpname mfp2 morgan
 
 python query.py -h
 
-python query.py --db chemtest --smi 'CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4' --fpSize 512
+python query.py --db moltest --smi 'CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4' --fpSize 512
 
 
 Check the Readme.pdf for usage or email abhik1368@gmail.com 
