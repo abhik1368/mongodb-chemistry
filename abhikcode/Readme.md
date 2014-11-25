@@ -28,7 +28,7 @@ python addfps.py --db moltest --fpSize 1024 --fpname mfp2 morgan
 
 python query.py -h
 
-python query.py --db moltest --smi 'CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4' --fpSize 512
+python query.py --db chembldb --smi 'CC1=NN=C2N1C3=C(C=C(C=C3)Cl)C(=NC2)C4=CC=CC=C4' --fpSize 512 --fpname mfp1 --t 0.5 --tag chembl_id morgan --radius 2
 
 
 Check the Readme.pdf for usage or email abhik1368@gmail.com 
